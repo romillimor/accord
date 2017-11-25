@@ -1,0 +1,24 @@
+package org.rom.testsmart.business;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ProductServiceImpl {
+
+	List<String> bookList = new ArrayList<>();
+	List<String> musicList = new ArrayList<>();
+	List<String> moviesList = new ArrayList<>();
+
+	
+	
+	public List<String> getProductCategories() {
+		List<String> categories = new ArrayList<>();
+		categories.add("Books");
+		categories.add("Music");
+		categories.add("Movies");
+		return categories;
+	}
+	
+	
+	
+}

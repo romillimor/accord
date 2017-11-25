@@ -1,0 +1,5 @@
+package org.rom.testmart;
+
+public class ProductCatalog {
+
+}

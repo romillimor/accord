@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/romil/eclipse-workspace/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+630029696.index
+4169129562.index
+406418116.index
+1441842271.index
+3280365454.index
+421865427.index

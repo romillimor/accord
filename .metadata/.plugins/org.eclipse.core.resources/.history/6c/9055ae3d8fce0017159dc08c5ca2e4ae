@@ -1,0 +1,19 @@
+package org.rom.testmart;
+
+public class ShopInfo {
+	
+	public String getShopInfo(String property) {
+		String response = "Invalid Property";
+		
+		if ("shopName".equals(property)) {
+			response = "Test Mart";
+		} 
+		else if ("since".equals(property)) {
+			response = "since 1985";
+			
+		}
+		return response;
+		
+	}
+
+}

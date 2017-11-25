@@ -1,0 +1,12 @@
+package org.rom.testmart;
+
+
+import javax.jws.WebService;
+
+@WebService
+public class ProductCatalog {
+	
+	
+	
+
+}

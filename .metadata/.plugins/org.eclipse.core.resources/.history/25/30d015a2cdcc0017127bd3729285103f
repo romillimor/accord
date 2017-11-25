@@ -1,0 +1,22 @@
+package org.rom.iplocator;
+
+import net.webservicex.GeoIPService;
+import net.webservicex.GeoIPServiceSoap;
+
+public class IPLocationFinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if (args.length != 1) {
+			System.out.println("You need to pass an arg");
+		}
+		 
+		else {
+			String ipAddress = args[0];
+			GeoIPService geoIPService = new GeoIPService();
+			GeoIPServiceSoap geoIPServiceSoap = geoIPService.getGeoIPServiceSoap();	
+		}
+		
+	}
+
+}

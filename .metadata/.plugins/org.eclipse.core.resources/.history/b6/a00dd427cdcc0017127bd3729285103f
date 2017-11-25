@@ -1,0 +1,17 @@
+package org.rom.iplocator;
+
+public class IPLocationFinder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		if (args.length != 1) {
+			System.out.println("You need to pass an arg");
+		}
+		 
+		else {
+			String ipAddress = args[0];
+		}
+		
+	}
+
+}
